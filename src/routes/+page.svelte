@@ -1,10 +1,14 @@
+<script lang="ts">
+	import { base } from '$app/paths';
+</script>
+
 <svelte:head>
 	<title>Home</title>
 	<meta name="description" content="easy-switch-toolkit" />
 </svelte:head>
 
 <section>
-	<a href="converter">Converter</a>
+	<a href="{base}/converter">Converter</a>
 </section>
 
 <style>
